@@ -24,26 +24,24 @@
  * THE SOFTWARE.
  */
 
-package com.noveo.android.bean;
+package com.noveogroup.bean;
 
 import java.lang.annotation.Annotation;
-import java.lang.reflect.InvocationTargetException;
+import java.util.Collection;
 
-public interface Property<T> {
+public interface Bean<T> {
 
     public Class<T> getBeanClass();
 
     public String getName();
 
-    public Class<?> getType();
+    public T newBean() throws InstantiationException, IllegalAccessException;
 
-    public boolean isReadable();
+    public T[] newBeanArray(int length);
 
-    public Object getValue(T bean) throws IllegalAccessException, InvocationTargetException;
+    public Property<T> getProperty(String name);
 
-    public boolean isWritable();
-
-    public void setValue(T bean, Object value) throws IllegalAccessException, InvocationTargetException;
+    public Collection<Property<T>> getProperties();
 
     public <A extends Annotation> boolean isAnnotationPresent(Class<A> annotationClass);
 

@@ -40,4 +40,4 @@
  * todo see http://projetos.vidageek.net/mirror/mirror/
  * todo see reflection-module from FEST: http://docs.codehaus.org/display/FEST/Reflection+Module
  */
-package com.noveo.android.bean;
+package com.noveogroup.bean;

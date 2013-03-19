@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-package com.noveo.android.bean;
+package com.noveogroup.bean;
 
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Field;
