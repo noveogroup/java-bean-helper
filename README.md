@@ -19,7 +19,13 @@ TODO write a manual
 Known Issues
 ============
 
-1. ...
+1. There are some differences with IntelliJ Idea bean generator.
+   For example: Integer isFavorite, String zId.
+2. There are a lot of useless exceptions.
+3. There are no logs or another debugging ability. It is hard to debug
+   bean helper.
+4. Optimize the code, change interface if it is needed.
+5. ...
 
 Developed By
 ============
