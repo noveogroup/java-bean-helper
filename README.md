@@ -6,7 +6,10 @@ TODO write a description
 Downloads
 ---------
 
-TODO add downloads
+ - [java-bean-helper-1.0.3.jar](https://github.com/noveogroup/java-bean-helper/blob/gh-downloads/java-bean-helper-1.0.3.jar?raw=true)
+ - [java-bean-helper-1.0.3-sources.jar](https://github.com/noveogroup/java-bean-helper/blob/gh-downloads/java-bean-helper-1.0.3-sources.jar?raw=true)
+
+[Previous versions](https://github.com/noveogroup/java-bean-helper/tree/gh-downloads)
 
 Getting Started
 ---------------
