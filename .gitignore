@@ -11,4 +11,5 @@
 
 # Maven
 target
+release.properties
 pom.xml.*
